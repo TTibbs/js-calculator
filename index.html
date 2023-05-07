@@ -24,7 +24,7 @@
           <div>
             <input id="input" type="button" class="clear" value="C" onclick="display.value = '' ">
             <input id="input" type="button" class="clear" value="DE" onclick="display.value = display.value.toString().slice(0,-1)">
-            <input id="input" type="button" class="operator" value="%" onclick="display.value += '%'">
+            <input id="input" type="button" class="operator" value="%" onclick="display.value += calculatePercentage()">
             <input id="input" type="button" class="operator" value="/" onclick="display.value += '/'">
           </div>
           <div>

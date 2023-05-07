@@ -19,3 +19,10 @@ function addBrackets() {
     }
   }
 }
+
+function calculatePercentage() {
+  let num1 = parseInt(document.getElementsByName('number1')[0].value);
+  let num2 = parseInt(document.getElementsByName('number2')[0].value);
+  let percentage = (num1 / num2) * 100;
+  display.value = percentage;
+}
